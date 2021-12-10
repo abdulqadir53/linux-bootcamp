@@ -1,9 +1,9 @@
 # Lab 4: Create and use an SSH public-private key pair for Linux VMs in Azure
 
-1. Supported SSH key formats
-2. Create an SSH key pair
-3. Provide an SSH public key when deploying a VM
-4. SSH into your VM
+1. Supported SSH key formats: SSH protocol 2 (SSH-2) RSA public-private key pairs with a minimum length of 2048 bits
+2. Create an SSH key pair: ssh-keygen -m PEM -t rsa -b 4096
+3. Provide an SSH public key when deploying a VM: --ssh-key-values
+4. SSH into your VM: ssh username@ServerFQDNOrIP
 
 ### Notes:
 

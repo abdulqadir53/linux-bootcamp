@@ -1,12 +1,13 @@
 # Lab 3: Manage Azure disks with the Azure CLI
 
-1. Default Azure disks
-2. Azure data disks
-3. VM disk types
+1. Default Azure disks: OS and Temp disks
+2. Azure data disks. Mainly for production
+3. VM disk types: Standard and Premium disks
 4. Launch Azure Cloud Shell
-5. Create and attach disks
-6. Prepare data disks
+5. Create and attach disks: az group create --name myResourceGroupDisk --location eastus
+6. Prepare data disks: Partition, Write File system, Mount
 7. Take a disk snapshot
+Enjoyable
 
 ### Notes:
 

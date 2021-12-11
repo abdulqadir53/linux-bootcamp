@@ -20,3 +20,6 @@ Quickstart: Restart VM via CLI
 
 Quickstart for AWS CloudShell
 * https://docs.aws.amazon.com/cloudshell/latest/userguide/working-with-cloudshell.html
+
+
+QED
